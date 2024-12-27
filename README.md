@@ -1,4 +1,4 @@
-# 3D Object Detection Model
+# 3D Object Detection Model 🚗
 
 In this project, we built a 3D object detection model that bridges the gap between 2D object detection and 3D scene understanding. Our goal is to enhance 2D detections with depth information to approximate a 3D understanding of the scene by integrating 2D object detection from Detectron2 and depth estimation from DepthAnything. 
 
@@ -8,9 +8,9 @@ In this project, we built a 3D object detection model that bridges the gap betwe
 - Utilize nuScenes camera calibration data with Open3D to back-project 2D detections into 3D space and create a bird's-eye-view representation.
 - Approximate object orientations by leveraging heuristics and compares 3D estimations with the ground truth data from the nuScenes dataset.
 
-## Setup Instructions
+## Installation Guide
 
-## Option 1: Google Colab (Recommended)
+### Option 1: Google Colab (Recommended)
 
 We recommend using Google Colab as it provides a pre configured environment with GPU support and all necessary dependencies.
 
@@ -18,16 +18,16 @@ We recommend using Google Colab as it provides a pre configured environment with
 2. All installation commands are included in the notebook
 3. Run the cells in sequence to install dependencies and set up the environment
 
-## Option 2: Local Setup 
+### Option 2: Local Setup 
 
 If you prefer to run this project locally, follow these steps:
 
-### Prerequisites
+#### Prerequisites
 - Python 3.8 or higher
 - CUDA-capable GPU (recommended)
 - Git
 
-### Installation Steps
+#### Installation Steps
 
 First, clone the repository and set up your environment:
 
