@@ -7,3 +7,8 @@ This model integrates 2D object detection from Detectron2 and depth estimation f
 - Uses segmentation masks to calculate the median depth of pixels for estimates of object distance.
 - Utilizes nuScenes camera calibration data with Open3D to back-project 2D detections into 3D space and create a bird's-eye-view representation.
 - Approximates object orientations by leveraging heuristics and compares 3D estimations with the ground truth data from the nuScenes dataset.
+
+## Setup
+
+We recommend using Google Colab as it provides a pre-configured environment with GPU support and all necessary dependencies.
+
